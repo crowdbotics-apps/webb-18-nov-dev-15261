@@ -7,7 +7,7 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    hgjghjhjgjgjh = models.CharField(
+    title = models.CharField(
         max_length=150,
     )
 
@@ -35,7 +35,7 @@ class CustomText(models.Model):
 
 
 class HomePage(models.Model):
-    hgfhfgfhgfhgfhgf = models.TextField()
+    body = models.TextField()
 
     @property
     def api(self):
